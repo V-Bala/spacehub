@@ -1,5 +1,5 @@
 # spacehub
-A prototype web app that retreives images and videos from NASA database. Landing page features a 3D reactive Spline animation.
+A prototype web app that retreives images and videos from the NASA APOD database. Featuring a 3D reactive Spline animation, and live content.
 <img width="935" alt="1" src="https://github.com/V-Bala/spacehub/assets/10373409/3ab59009-1b54-4c32-869a-85eb657863a0">
 
 <img width="928" alt="2" src="https://github.com/V-Bala/spacehub/assets/10373409/d4c21ca5-45ac-4036-b5df-971e04b5ee5f">
