@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="app.js"></script>
+        <title>NASA Spline Demo</title>
+    </head>
+    <body>
+              <!-- VIDEO BACKGROUND SCREEN-->
+        <video autoplay muted loop class="background-video">
+            <source src="videos/pexels-pixabay-854239-1280x720-30fps.mp4" type="video/mp4">
+        </video>
+
+        <!-- Nav Start -->
+        <nav>
+            <a href="#" class="logo">
+              <h1>
+                <span class="fist">&#x26A1;</span>
+                <span class="jab">SPACE</span>
+                <span class="tv">HUB</span>
+              </h1>
+            </a>
+            <ul>
+              <li class="nav-item">
+                <a href="#video-gallery-container" class="nav-link" id="nav-link">Featured Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="#nasaapi" class="nav-link" id="nav-link">NASA API</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link" id="nav-link">About</a>
+              </li>
+            </ul>
+            <!-- Nav Bars -->
+            <div class="hamburger" id="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+      
+      <!-- Hero section -->
+      <section class="hero hero-padding">
+        <div class="intro-text">
+          <h1>
+            <span class="hear fade-short">Unleash the Beauty of the 
+              <span class="universe-text">Universe</span>
+            </span>
+            <br/>
+            <span class="connecting fade-long">
+              Soar into the Final Frontier: <span class="space-text">Space</span>
+            </span>
+          </h1>
+          <h3 class="typewriter fade-long">
+            Explore the Vast Cosmos and Beyond!
+            <br />
+            Dive into NASA's collection of pictures and videos using the Open API.
+          </h3>
+          <a href="#video-gallery-container" class="hero-button1 fade-long">Featured Gallery</a>
+          <a href="#nasaapi" class="hero-button2 fade-long">Go to NASA API</a>
+        </div>
+      </div> 
+      </section>
+
+      <!-- <div class="background-content">
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.369/build/spline-viewer.js"></script>
+      <spline-viewer url="https://prod.spline.design/mqHU5OqshOJLreRa/scene.splinecode"></spline-viewer>
+    </div>-->
+    <div class="spline-iframe">
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.369/build/spline-viewer.js"></script>
+      <spline-viewer url="https://prod.spline.design/iRSCsSdJGblG-jxf/scene.splinecode"></spline-viewer>
+    </div>
+          <!-- Video Gallery Start -->
+          <section class="video-gallery-container reveal-section" id="video-gallery-container">
+            <h2 class="title">Featured Gallery</h2>
+      
+            <div class="video-gallery padding-class-base">
+              <div class="featured-video">
+                <div class="responsive-iframe">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/YCo2bXYPmPY?controls=0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+      
+                <h3 class="video-title">
+                  The PENTAGON Releases Shocking Video of UFO
+                </h3>
+              </div>
+      
+              <div class="all-videos">
+                <div class="video">
+                  <img
+                    class="thumbnail"
+                    data-id="Wxlg0ajntrw"
+                    data-title="Scientists Saw The Largest Explosion in Space And Now There's a Problem"
+                    src="images/scientists_saw_largest_thumbnail.png"
+                    alt=""
+                  />
+      
+                  <div class="play-icon">
+                    <img src="images/play-icon.png" alt="" />
+                  </div>
+                </div>
+      
+                <div class="video">
+                  <img
+                    class="thumbnail"
+                    data-id="B6tZqWnaQdU"
+                    data-title="Major NEW NASA & SpaceX Moon Landing Update!"
+                    src="images/new_update_rocket_thumbnail.png"
+                    alt=""
+                  />
+      
+                  <div class="play-icon">
+                    <img src="images/play-icon.png" alt="" />
+                  </div>
+                </div>
+      
+                <div class="video">
+                  <img
+                    class="thumbnail"
+                    data-id="t5jCiMDs5lI"
+                    data-title="NASA Looks Into UFOs And Here's What It Found"
+                    src="images/why_is_nasa_thumbnail.png"
+                    alt=""
+                  />
+      
+                  <div class="play-icon">
+                    <img src="images/play-icon.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+                        <!-- NASA API section -->
+                        <section class="nasaapi padding-class-base reveal-section" id="nasaapi">
+                          <h1>Discover New Marvels Everyday
+                            <br>
+                            Select New Dates for Fresh Content <span>&#9660;</span>
+                          </h1>
+          
+                          <div class="date-video-container">
+                              <div class="date-picker-container">
+                              <div>
+                                <label class="start-date-picker" for="start-date-picker">Start Date</label>
+                                <input type="date" id="start-date-picker">
+                              </div>
+                              <div>
+                                <label class="end-date-picker" for="end-date-picker">End Date</label>
+                                <input type="date" id="end-date-picker">
+                              </div>
+                              <button id="fetch-button">Fetch</button>
+                              <div class="date-range-header">
+                                <!-- APOD date range dynamically added here -->
+                              </div>
+                              <div class="date-range-header-value">
+                                <!-- APOD date range value dynamically added here -->
+                              </div>
+                              </div>
+                              <div class="video-card-container">
+                                <!-- APOD elements will be dynamically added here -->
+                              </div>
+                          </div>
+                        </section>
+          
+                    <!-- About section -->
+                    <section class="about" id="about">
+                      <h2>BETA - Coming Soon in Version 2.0</h2>
+                      <h4>&#9733; Voyage through the Galaxy in Immersive 3D
+                      </h4>
+                      <h4>&#9733; Dive into the Enigmatic World of UFOs and Unexplained Phenomena
+                      </h4>
+                    </section>
+          
+                <!-- Social icons -->
+                <section class="social" id="social">
+                  <h3>Connect with us on Social Media &#9787;</h3>
+                  <div class="social-icons">
+                    <a href="https://twitter.com/vijaybala_"><i class="fab fa-twitter"></i></a>
+                    <a href="https://medium.com/@VijayBala_"><i class="fab fa-medium-m"></i></a>
+                    <a href="https://instagram.com/vijay_bala"> <i class="fab fa-instagram"></i> </a>
+                    <a href="https://github.com/v-bala"> <i class="fab fa-github"></i> </a>
+                    <a href="https://linkedin.com/in/vijaybala1"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </section>
+    </body>
+  
+    <footer>&copy;2023. All Rights Reserved.</footer>
+</html>
