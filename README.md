@@ -1,5 +1,5 @@
 # spacehub
-A prototype web interface to track the latest pictures and videos uploaded by NASA. Features an interactive 3D spline animation and date based user querying.
+A website that lets users fetch the latest Pictures and Videos via the NASA Open API. Features an interactive 3D spline animation and date based user querying.
 
 <img width="935" alt="1" src="https://github.com/V-Bala/spacehub/assets/10373409/3ab59009-1b54-4c32-869a-85eb657863a0">
 
@@ -8,5 +8,3 @@ A prototype web interface to track the latest pictures and videos uploaded by NA
 <img width="935" alt="3" src="https://github.com/V-Bala/spacehub/assets/10373409/71851f5b-c1b9-4942-a17f-0777ad781832">
 
 <img width="926" alt="4" src="https://github.com/V-Bala/spacehub/assets/10373409/62226363-991e-4b1a-bba6-f77c53243003">
-
-Live site coming soon :)
